@@ -1,0 +1,632 @@
+body {
+  background-image: url(img/cool-geometric-triangular-figure-in-a-neon-laser-light-great-for-backgrounds-and-wallpapers.jpg);
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#a {
+  color: #001C49;
+}
+
+#content {
+  position: relative;
+  background-color: #001C49;
+  width: 1150px;
+  height: 2040px;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 3;
+  border-radius: 14px;
+}
+
+#logo {
+  cursor: pointer;
+  border-style: none;
+}
+
+#BtAn {
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+  font-size: medium;
+  border-radius: 7px;
+  background-color: #006994;
+  box-shadow: 0 5px 4px;
+  cursor: pointer;
+}
+
+#BtAn:hover {
+  box-shadow: none;
+  background-color: #0092A7;
+}
+
+#BtMt {
+  position: relative;
+  bottom: 10px;
+  left: 22px;
+  font-size: medium;
+  border-radius: 7px;
+  background-color: #006994;
+  box-shadow: 0 5px 4px;
+  cursor: pointer;
+}
+
+#BtMt:hover {
+  box-shadow: none;
+  background-color: #0092A7;
+}
+
+#BtCe {
+  position: relative;
+  bottom: 10px;
+  left: 33px;
+  font-size: medium;
+  border-radius: 7px;
+  background-color: #006994;
+  box-shadow: 0 5px 4px;
+  cursor: pointer;
+}
+
+#BtCe:hover {
+  box-shadow: none;
+  background-color: #0092A7;
+}
+
+#BtCon {
+  position: relative;
+  bottom: 10px;
+  left: 45px;
+  font-size: medium;
+  border-radius: 7px;
+  background-color: #006994;
+  box-shadow: 0 5px 4px;
+  cursor: pointer;
+}
+
+#BtCon:hover {
+  box-shadow: none;
+  background-color: #0092A7;
+}
+
+.Perfil {
+  background-color: #001C49;
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  left: 0px;
+  top: 200px;
+}
+
+.Trabalhos {
+  background-color: none;
+  border-style: inset;
+  border-radius: 20px;
+  width: 450px;
+  height: 1300px;
+  position: absolute;
+  left: 660px;
+  top: 200px;
+}
+
+#Certificados {
+  background-color: #A9B9D1;
+  width: 530px;
+  height: 300px;
+  position: relative;
+  left: 30px;
+  top: 0px;
+}
+
+#certificado2 {
+  background-color: #A9B9D1;
+  width: 520px;
+  height: 300px;
+  position: relative;
+  left: 30px;
+  top: 0px;
+}
+
+@keyframes fadeOut {
+  0% {
+    transform: translateY(50px);
+  }
+
+  20% {
+    transform: translateY(-20px);
+  }
+
+  40% {
+    transform: translateY(30px);
+  }
+
+  60% {
+    transform: translateY(-20px);
+  }
+
+  80% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateX(40px);
+  }
+
+  20% {
+    transform: translateX(-10px);
+  }
+
+  40% {
+    transform: translateX(20px);
+  }
+
+  60% {
+    transform: translateX(-20px);
+  }
+
+  80% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.habilidades {
+  background-color: #001C49;
+  height: 0px;
+  position: absolute;
+  top: 490px;
+}
+
+.textoperfil {
+  background-color: #001C49;
+  position: relative;
+  color: white;
+  font-size: 18px;
+  top: 60px;
+  left: 260px;
+  width: 360px;
+  height: 200px;
+}
+
+.BarraHab {
+  position: relative;
+  left: 0px;
+  top: 200px;
+}
+
+.certificadosbar {
+  position: relative;
+  left: 0px;
+  top: 260px;
+}
+
+#info {
+  position: relative;
+  left: -300px;
+  bottom: -200px;
+}
+
+#gmail {
+  position: relative;
+  left: 85px;
+  bottom: -218px;
+  color: white;
+  font-size: 26px;
+  width: 100px;
+  height: 10px;
+}
+
+#iconGmail {
+  position: relative;
+  left: 20px;
+  bottom: -165px;
+  width: 60px;
+  height: 60px;
+}
+
+#linkedin {
+  position: relative;
+  left: 100px;
+  bottom: -198px;
+  color: white;
+  font-size: 26px;
+  width: 300px;
+  height: 10px;
+}
+
+#iconLinkedin {
+  position: relative;
+  left: 20px;
+  bottom: -146px;
+  width: 60px;
+  height: 60px;
+}
+
+#github {
+  position: relative;
+  left: 100px;
+  bottom: -178px;
+  color: white;
+  font-size: 26px;
+  width: 300px;
+  height: 10px;
+}
+
+#icongithub {
+  position: relative;
+  left: 20px;
+  bottom: -50px;
+  width: 60px;
+  height: 60px;
+}
+
+#aotopo {
+  position: relative;
+  left: 300px;
+  bottom: -160px;
+}
+
+.scrollToTop {
+  height: 1px;
+  width: 1px;
+  margin: 1px;
+  padding: 1px;
+}
+
+#footer {
+  width: 1000px;
+  height: 30px;
+  background-color: none;
+  position: relative;
+  left: 10px;
+  bottom: -150px;
+  color: #0092A7;
+  font-size: 25px;
+  border-radius: 14px;
+}
+
+#restaurant {
+  position: relative;
+  left: 5px;
+  border-radius: 20px;
+  border-style: dashed;
+  align-items: center;
+}
+
+#restaurant:hover {
+  animation: pulse 10s infinite;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-filter: brightness(120%);
+  }
+
+  100% {
+    -webkit-filter: brightness(120%);
+  }
+}
+
+#media {
+  margin-bottom: 20px;
+  position: relative;
+  top: 45px;
+  left: 5px;
+  border-radius: 20px;
+  border-style: dashed;
+  align-items: center;
+}
+
+#media:hover {
+  animation: pulse 10s infinite;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+#botEmails {
+  margin-bottom: 10px;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  border-radius: 20px;
+  border-style: dashed;
+  align-items: center;
+}
+
+#botEmails:hover {
+  animation: pulse 10s infinite;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+#saint {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  position: relative;
+  top: 145px;
+  left: 5px;
+  border-radius: 20px;
+  border-style: dashed;
+  align-items: center;
+}
+
+#saint:hover {
+  animation: pulse 10s infinite;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+#imgfreela {
+  margin-bottom: 10px;
+  margin-top: 15px;
+  position: relative;
+  top: 320px;
+  left: 5px;
+  border-radius: 20px;
+  border-style: dashed;
+  align-items: center;
+}
+
+#imgfreela:hover {
+  animation: pulse 10s infinite;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+#sabres {
+  position: relative;
+  top: -35px;
+  left: 70px;
+}
+
+.trab1 {
+  width: 420px;
+  font-size: 25px;
+  background: none;
+  color: whitesmoke;
+}
+
+.trab2 {
+  width: 420px;
+  font-size: 25px;
+  background: none;
+  color: whitesmoke;
+}
+
+.mediaquery {
+  position: relative;
+  top: -25px;
+}
+
+.trab3 {
+  width: 420px;
+  font-size: 25px;
+  background: none;
+  color: whitesmoke;
+}
+
+.botem {
+  margin-top: 1px;
+  position: relative;
+  top: 30px;
+}
+
+.trab4 {
+  width: 420px;
+  font-size: 25px;
+  background: none;
+  color: whitesmoke;
+  position: relative;
+  top: 165px;
+}
+
+.santo {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  position: relative;
+  top: -100px;
+  width: 50px;
+  height: 80px;
+}
+
+.freela {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  position: relative;
+  top: -100px;
+  width: 50px;
+  height: 80px;
+}
+
+.trab5 {
+  width: 420px;
+  font-size: 25px;
+  background: none;
+  color: whitesmoke;
+  position: relative;
+  top: 320px;
+}
+
+[lj-type="stage"] {
+  width: 43%;
+  height: 28%;
+  margin: auto;
+  position: relative;
+  left: -280px;
+  top: 290px;
+}
+
+#ponto1 {
+  font-size: 25px;
+  color: white;
+  position: relative;
+  top: 80px;
+  left: 100px;
+  background-color: #001C49;
+}
+
+#ponto2 {
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: 80px;
+  left: 150px;
+  background-color: #001C49;
+}
+
+@media (max-width: 1000px) {
+  #content{
+    height: 3300px;
+    
+  }
+  #BtAn{
+    position: relative;
+    left: -500px;
+    bottom: -30px;
+  }
+  #BtMt{
+    position: relative;
+    left: -480px;
+    bottom: -30px;
+  }
+  #BtCe{
+    position: relative;
+    left: -460px;
+    bottom: -30px;
+  }
+  #BtCon{
+    position: relative;
+    left: -440px;
+    bottom: -30px;
+  }
+  .Trabalhos{
+    border-style: none;
+  }
+  #restaurant{
+    position: relative;
+    left: -600px;
+    bottom: -300px;
+  }
+  .trab1{
+    position: relative;
+    left: -600px;
+    top: 276px;
+  }
+  .trab2{
+    position: relative;
+    left: -600px;
+    top: 276px;
+  }
+  .trab3{
+    position: relative;
+    left: -600px;
+    top: 276px;
+  }
+  .trab4{
+    position: relative;
+    left: -600px;
+    top: 410px;
+  }
+  .trab5{
+    position: relative;
+    left: -600px;
+    top: 550px;
+  }
+  .mediaquery{
+    position: relative;
+    left: -600px;
+    top: 270px;
+  }
+  .botem{
+    position: relative;
+    left: -600px;
+    top: 300px;
+  }
+  .santo{
+    position: relative;
+    left: -600px;
+    top: 150px;
+  }
+  .freela{
+    position: relative;
+    left: -600px;
+    top: 130px;
+  }
+  .habilidades{
+    position: relative;
+    top: 1050px;
+  }
+  .BarraHab{
+    position: relative;
+    top: 1430px;
+  }
+  .certificadosbar{
+    position: relative;
+    top: 1470px;
+  }
+  [lj-type="stage"]{
+    position: relative;
+    top: 1500px;
+  }
+  #ponto1 {
+    position: relative;
+    top: 950px;
+  }
+  #ponto2 {
+    position: relative;
+    top: 950px;
+  }
+  #info{
+    position: relative;
+    top: 1130px;
+  }
+  #gmail{
+    position: relative;
+    top: 1130px;
+  }
+  #iconGmail{
+    position: relative;
+    top: 1080px;
+  }
+  #linkedin{
+    position: relative;
+    top: 1080px;
+  }
+  #iconLinkedin{
+    position: relative;
+    top: 1030px;
+  }
+  #github{
+    position: relative;
+    top: 1030px;
+  }
+  #icongithub{
+    position: relative;
+    top: 910px;
+  }
+  #aotopo{
+    position: relative;
+    top: 1100px;
+    left: 0px;
+    width: 500px;
+  }
+  #footer{
+    position: relative;
+    top: 1080px;
+  }
+}
